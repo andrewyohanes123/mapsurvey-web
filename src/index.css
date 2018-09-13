@@ -110,6 +110,59 @@ h1, h2, h3, h4, h5, h6 {
   height: calc(90% + 3.25%);
 }
 
+.notify {
+  position: fixed;
+  top : 50%;
+  left : 50%;
+  padding: 8px 15px;
+  border-radius: 0.5em;
+  background: #60a3bc;
+  color: #3c6382;
+  transform: translate(-50%, -50%);
+}
+
+.notify-success {
+  background : #38ada9 !important;
+  color : #079992 !important;
+}
+
+.notify-danger {
+  background: #e55039 !important;
+  color : white !important;
+}
+
+.mt-1 {
+  margin-top: 0.25em;
+}
+
+.mt-2 {
+  margin-top: 0.5em;
+}
+
+.mt-3 {
+  margin-top: 0.75em;
+}
+
+.mt-4 {
+  margin-top: 1em;
+}
+
+.mb-1 {
+  margin-bottom: 0.25em;
+}
+
+.mb-2 {
+  margin-bottom: 0.5em;
+}
+
+.mb-3 {
+  margin-bottom: 0.75em;
+}
+
+.mb-4 {
+  margin-bottom: 1em;
+}
+
 #map {
   height: 100vh;
 }
